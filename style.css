@@ -80,7 +80,6 @@ img{
     background-image: url(img/banner.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-    margin:;
 }
 .me-photo{
     display:flex;
@@ -89,11 +88,9 @@ img{
 }
 .me-photo img{
     width: 25%;
-    height: 100%;
     padding-left: 5vmax;
 }
 .about-me{
-    width: 100%;
     padding-left: 10%;
     padding-right: 10%;
 }
@@ -108,11 +105,8 @@ img{
     font-size: 1.5vmax;
     padding-bottom: 5vmax;
     }
-.about-me a{
-    padding-bottom: ;
-}
 .my-recipies{
-    display: block;
+    display: inline-block;
     width: 100%;
 }
 .recipies-intro{
@@ -151,5 +145,24 @@ img{
 #description{
     padding-top:10px;
     font-size:1.5vmax;
+}
+.social-valu{
+    display: flex;
+    place-content: center;
+    width: 80%;
+    margin: 10%;
+    box-shadow: 0px 0px 10px 2px gray;
+    border-radius: 10px;
+}
+.values{
+    text-align: center;
+    padding: 20px 4vmax;
+}
+#bolt{
+    font-size: 2vmax;
+    padding-bottom: 5%;
+}
+#small{
+    font-size: 1vmax;
 }
 
