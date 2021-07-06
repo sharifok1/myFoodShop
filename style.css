@@ -40,6 +40,24 @@ li a{
 p{
     font-size: 2vmax;
 }
+.search{
+    display:flex;
+    width: 100%;
+    background-color: teal;
+}
+#form{
+    padding: 20px 5%;
+    display: inline;
+    align-items: center;
+    }
+    input{
+        text-align: center;
+        width: 300px;
+        height:50px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px 2px rgb(226, 6, 6);
+
+    }
 .font-view{
     display: flex;
     width: 100%;
