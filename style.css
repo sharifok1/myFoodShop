@@ -1,0 +1,155 @@
+*{
+    margin:0px;
+    padding:0px;
+    text-decoration: none;
+    list-style: none;
+}
+.manubar{
+    background-color: #66c1eb;
+    display: inline-flex;
+    width: 100%;
+}
+#logo{
+    width: 40%;
+    padding-left: 5%;
+    font-size: 3vmax;
+}
+#manu{
+    display: inline-flex;
+    width: 60%;
+    float: right;
+}
+li{
+    font-weight: 800;
+    font-size: 1vmax;
+    display:inline-flex;
+    margin-top: .4vmax;
+    background-color: linear-gradient(#0d88b9 #1e3df1fa);
+}
+li a{
+    color:white;
+    margin:1vmax;
+    width: 5vmax;
+    padding: 10px 5px;
+    background-image: linear-gradient(#16d88d,#156bdb);
+    text-align: center;
+    border-radius: 5px;
+}
+p{
+    font-size: 2vmax;
+}
+.font-view{
+    display: flex;
+    width: 100%;
+    padding: 2vmax;
+}
+.font-text{
+    margin-top: 100px;
+    padding-left: 8%;
+    width: 50%;
+}
+.font-text h1{
+    margin-bottom: 20px;
+    font-size: 3vmax;
+}
+.font-img{
+    margin-top: 50px;
+    width: 60%;
+}
+img{
+    width: 100%;
+}
+.button{
+    width:10vmax;
+    font-size: 1.5vmax;
+    font-weight: 800;
+    background-image: linear-gradient(to right, #23d650, #3b4bdb);
+    text-align: center;
+    padding: 15px 12px;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 2px #098af3e8;
+}
+.button a{
+    color: white;
+    
+}
+.bannar-sec{
+    display: flex;
+    width: 100%;
+    background-image: url(img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin:;
+}
+.me-photo{
+    display:flex;
+    width: 100%;
+
+}
+.me-photo img{
+    width: 25%;
+    height: 100%;
+    padding-left: 5vmax;
+}
+.about-me{
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.about-me h1{
+    padding-top:20px;
+    font-size: 3vmax;
+    padding-bottom: 5%;
+    padding-top:5vmax ;
+}
+
+.about-me p{
+    font-size: 1.5vmax;
+    padding-bottom: 5vmax;
+    }
+.about-me a{
+    padding-bottom: ;
+}
+.my-recipies{
+    display: block;
+    width: 100%;
+}
+.recipies-intro{
+    display: inline-block;
+    text-align: center;
+    padding: 50px 100px 0px 100px;
+}
+.recipies-intro h1{
+    font-size: 3vmax;
+    padding-bottom: 3%;
+}
+
+.items{
+    display: flex;
+    width: 100%;
+    margin:5%;
+}
+.food{
+    width: 25%;
+    padding: 1vmax;
+    box-shadow: 0px 0px 10px 2px gray;
+    border-radius: 15px;
+}
+.food h1{
+    font-size: 2vmax;
+    padding-top:10px;
+}
+.food img{
+    border-radius: 15px;
+    width:100%;
+}
+.food:nth-child(2){
+    margin-left:4vmax;
+    margin-right: 4vmax;
+}
+#description{
+    padding-top:10px;
+    font-size:1.5vmax;
+}
+
