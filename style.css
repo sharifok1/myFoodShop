@@ -3,6 +3,8 @@
     padding:0px;
     text-decoration: none;
     list-style: none;
+    font-family:font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 .manubar{
     background-color: #66c1eb;
@@ -29,7 +31,7 @@ li{
 li a{
     color:white;
     margin:1vmax;
-    width: 5vmax;
+    width: 5.5vmax;
     padding: 10px 5px;
     background-image: linear-gradient(#16d88d,#156bdb);
     text-align: center;
@@ -164,5 +166,16 @@ img{
 }
 #small{
     font-size: 1vmax;
+}
+.footer{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    color:white;
+    background-color: #222;
+    padding: 30px 0px;
+}
+#footer-id{
+    padding-bottom: 1vmax;
 }
 
